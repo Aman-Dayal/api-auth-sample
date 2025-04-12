@@ -1,4 +1,6 @@
 ###create and activate virtual environment
+
+bash
 python -m venv myenv && myenv/scripts/activate
 
 ###Install necessary dependencies
