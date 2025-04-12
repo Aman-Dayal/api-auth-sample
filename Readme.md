@@ -1,12 +1,17 @@
-###create and activate virtual environment
+# API Auth Sample
 
-bash
-python -m venv myenv && myenv/scripts/activate
+A sample implementation demonstrating how to integrate third-party APIs and handle authentication using **FastAPI**.
 
-###Install necessary dependencies
-pip install fastapi uvicorn python-dotenv requests
+---
 
-###Run the fastapi application with minimal flags
-uvicorn app:app --reload
+## 🚀 Getting Started
 
-### Voila Your application is ready to be accessed
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/api-auth-samples.git
+cd api-auth-samples
+
+```bash
+python -m venv myenv && myenv\Scripts\activate
+pip install uvicorn fastapi python-dotenv requests
